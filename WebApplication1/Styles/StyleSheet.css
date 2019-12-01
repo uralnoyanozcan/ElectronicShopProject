@@ -1,0 +1,111 @@
+﻿body {
+    color: #574c3f;
+    font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: lavender;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#banner {
+}
+
+#navigation {
+    height: 45px;
+    background: linear-gradient(to top, #0962f8, #3b82f9);
+}
+
+#nav {
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+    #nav ul {
+        display: none;
+        list-style: none;
+    }
+
+    #nav li {
+        float: left;
+        display: block;
+        margin-top: 15px;
+        text-transform: uppercase;
+        padding: 0px 20px 0px 20px;
+        border-left: 1px solid #FFFFFF;
+    }
+
+    #nav a:link, #nav a :visited, #nav a:active {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    #nav a:hover {
+        background-color: white;
+    }
+
+#content {
+    padding: 20px;
+    min-height: 400px;
+}
+
+#ContentPlaceHolder1_pnlProducts div {
+    float: left;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.productImage {
+    width: 150px;
+    height: 150px;
+    vertical-align: central;
+    padding: 10px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.productName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.productPrice {
+    font-family: arial,helvetica,sans-serif;
+    color: #FFB600;
+}
+
+.detailsImage {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.detailsDescription {
+    width: 400px;
+    font-style: italic
+}
+
+.detailsPrice {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 10px;
+    margin: 20px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    clear: both;
+    background: linear-gradient(to bottom, darkgreen, green);
+}
